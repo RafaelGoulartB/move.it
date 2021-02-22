@@ -20,7 +20,7 @@
   </a>
 </p>
 
-> :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+> :rocket: Project Made in Next Level Week #04 #NLW @Rocketseat
 
 <p align="center">
     <a href="README.md">English</a>
