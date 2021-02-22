@@ -18,7 +18,7 @@
   </a>
 </p>
 
-> :rocket: Project Made in Next Level Week #04 #NLW @Rocketseat
+> :rocket: Move It is a project to help people to make more exercises. Next Level Week #04 #NLW @Rocketseat
 
 <p align="center">
     <a href="README.md">English</a>
