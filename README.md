@@ -1,9 +1,3 @@
-<!--
-<p align="center">
-   <img src="./.github/logo.png" alt="Move It" width="280"/>
-</p>
---!>
-
 <h1 align="center">Move It</h1>
 
 <p align="center">	
