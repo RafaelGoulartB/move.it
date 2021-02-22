@@ -1,6 +1,10 @@
+<!--
 <p align="center">
    <img src="./.github/logo.png" alt="Move It" width="280"/>
 </p>
+--!>
+
+<h1 align="center">Move It</h1>
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">
@@ -38,7 +42,8 @@
 </div>
 
 # :pushpin: Table of Contents
-  
+
+* [Demo Website](#eyes-demo-website)     
 * [Technologies](#computer-technologies)
 * [Features](#rocket-features)
 * [How to Run](#construction_worker-how-to-run)
@@ -57,6 +62,10 @@
    <img src="./.github/screenshot-1.png" width="400px">
    <img src="./.github/screenshot-2.png" width="400px">
 </div>
+
+# :eyes: Demo Website
+The demo website can be missing some features, clone and run the project to a full experience. <br>
+👉  demo: 
 
 # :computer: Technologies
 This project was made using the follow technologies:
@@ -84,7 +93,7 @@ $ git clone https://github.com/RafaelGoulartB/move.it.git
 $ yarn install
 
 # Run Aplication
-$ yarn start
+$ yarn dev
 ```
 Go to http://localhost:3000/ to see the result.
 
