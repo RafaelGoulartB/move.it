@@ -1,4 +1,6 @@
-<h1 align="center">Move It</h1>
+<p align="center">
+   <img src="./.github/logo.svg" alt="Move It" width="300"/>
+</p>
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">
