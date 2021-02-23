@@ -61,7 +61,7 @@
 </div>
 
 # :eyes: Demo Website
-👉  demo: https://move-it-nlw.vercel.app/
+👉  demo: https://moveit-nlw.vercel.app/
 
 # :computer: Technologies
 This project was made using the follow technologies:
