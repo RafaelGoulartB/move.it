@@ -56,8 +56,8 @@
 </p>
 
 <div>
-   <img src="./.github/screenshot-1.png" width="480px">
-   <img src="./.github/screenshot-2.png" width="480px">
+   <img src="./.github/screenshot-1.png" width="400px">
+   <img src="./.github/screenshot-2.png" width="400px">
 </div>
 
 # :eyes: Demo Website
