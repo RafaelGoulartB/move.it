@@ -61,8 +61,7 @@
 </div>
 
 # :eyes: Demo Website
-The demo website can be missing some features, clone and run the project to a full experience. <br>
-👉  demo: 
+👉  demo: https://move-it-nlw.vercel.app/
 
 # :computer: Technologies
 This project was made using the follow technologies:
