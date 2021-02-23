@@ -74,8 +74,8 @@ This project was made using the follow technologies:
 
 # :rocket: Features
 
-* Website to sign up teachers and students.
-* App to connect teachers and students.
+* Pomodoro timer.
+* Help to get up of chair and make some exercise.
 
 # :construction_worker: How to run
 ```bash
