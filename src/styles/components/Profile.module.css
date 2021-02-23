@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.profileContainer img {
+.profileContainer > img {
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 50%;
@@ -27,7 +27,5 @@
 }
 
 .profileContainer div p img {
-  width: 1rem;
-  height: 1rem;
   margin-right: 0.5rem;
 }
