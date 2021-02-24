@@ -2,7 +2,7 @@ import { createContext, ReactNode, useState } from 'react'
 import challenges from '../../challenges.json'
 
 interface Challenge {
-  type: 'body' | 'eye'
+  type: string
   description: string
   amount: number
 }
@@ -31,7 +31,7 @@ export function ChallengesProvider({
   const [currentExperience, setCurrentExperience] = useState(0)
   const [challengesCompleted, setChallengesCompleted] = useState(0)
 
-  const [activeChallenge, setActiveChallenge] = useState(null)
+  const [activeChallenge, setActiveChallenge] = useState<Challenge | null>(null)
 
   const experienceToNextLevel = Math.pow((level + 1) * 4, 2)
 
