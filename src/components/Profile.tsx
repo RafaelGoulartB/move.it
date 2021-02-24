@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "../styles/components/Profile.module.css";
+import React from 'react'
+import styles from '../styles/components/Profile.module.css'
 
 const Profile: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Profile: React.FC = () => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Profile;
+export default Profile
