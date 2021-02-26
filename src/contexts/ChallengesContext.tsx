@@ -1,4 +1,5 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
+import Cookies from 'js-cookie'
 import challenges from '../../challenges.json'
 
 interface Challenge {
@@ -21,16 +22,24 @@ interface ChallengesContextData {
 
 interface ChallengesProviderProps {
   children: ReactNode
+  level: number
+  currentExperience: number
+  challengesCompleted: number
 }
 
 export const ChallengesContext = createContext({} as ChallengesContextData)
 
 export function ChallengesProvider({
-  children
+  children,
+  ...rest
 }: ChallengesProviderProps): React.ReactElement {
-  const [level, setLevel] = useState(1)
-  const [currentExperience, setCurrentExperience] = useState(0)
-  const [challengesCompleted, setChallengesCompleted] = useState(0)
+  const [level, setLevel] = useState(rest.level ?? 1)
+  const [currentExperience, setCurrentExperience] = useState(
+    rest.currentExperience ?? 0
+  )
+  const [challengesCompleted, setChallengesCompleted] = useState(
+    rest.challengesCompleted ?? 0
+  )
 
   const [activeChallenge, setActiveChallenge] = useState<Challenge | null>(null)
 
@@ -39,6 +48,12 @@ export function ChallengesProvider({
   useEffect(() => {
     Notification.requestPermission()
   }, [])
+
+  useEffect(() => {
+    Cookies.set('level', String(level))
+    Cookies.set('currentExperience', String(currentExperience))
+    Cookies.set('challengesCompleted', String(challengesCompleted))
+  }, [level, currentExperience, challengesCompleted])
 
   function levelUp() {
     setLevel(level + 1)
